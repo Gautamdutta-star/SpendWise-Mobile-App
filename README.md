@@ -1,53 +1,28 @@
-# SpendWise-Mobile-App
+# SpendWise — Week 2 UI Prototype
 
-## Personal Expense and Budget Tracker
+A React Native + Expo mobile prototype for personal expense and budget tracking.
 
-SpendWise is a mobile application concept designed to help users manage their personal finances in a simple and organized way.
+## Implemented
+- Dashboard with balance, income, expenses and recent transactions
+- Add income/expense transaction
+- Category selection and notes
+- Transaction history
+- Monthly summary
+- Profile/settings
+- Bottom navigation
 
-## Project Overview
+## Run
+1. Install Node.js.
+2. Extract/open this project.
+3. Run `npm install`
+4. Run `npx expo start`
+5. Open with Expo Go, Android emulator, iOS simulator, or `npx expo start --web`.
 
-The application allows users to record income and expenses, monitor their current balance, review transaction history, and track monthly spending.
+## Structure
+- `App.js` — screens, reusable transaction row and navigation
+- `app.json` — Expo configuration
+- `package.json` — dependencies/scripts
+- `screenshots/` — prototype screen captures
 
-## Key Features
-
-- User Login and Registration
-- Expense and Income Tracking
-- Category-wise Transactions
-- Monthly Budget Management
-- Transaction History
-- Monthly Spending Summary
-- Profile and Settings
-- Edit and Delete Transactions
-
-## Week 1 Deliverables
-
-This repository contains the project planning and wireframing work for Week 1 of the internship.
-
-The project includes:
-
-- Project Objective
-- Target Audience
-- Core Features
-- User Flow
-- Mobile App Wireframes
-- UX and Design Decisions
-- Future Scope
-
-## Wireframes
-
-The planned screens include:
-
-1. Login / Signup
-2. Dashboard
-3. Add Transaction
-4. Transaction History
-5. Monthly Summary
-6. Profile / Settings
-
-## Future Development
-
-The application can later be extended with budget alerts, interactive charts, recurring transactions, cloud synchronization, and expense data export.
-
-## Project Status
-
-**Week 1 - Project Planning and Wireframing Completed**
+## Week 2 Status
+User Interface Implementation and Prototyping completed.
